@@ -15,7 +15,7 @@ Table of Contents
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/text-summarization.git
+git clone https://github.com/SheCodes27/text-summarization.git
 ```
 
 Navigate to the project directory:
@@ -59,25 +59,27 @@ python summarize.py
 
 The script will read the content from the specified file, process it, and print the summary to the console.
 
+
 3.DEPENDENCIES
 
 * nltk: Natural Language Toolkit for text preprocessing and tokenization.
 * gensim: Library for topic modeling and document similarity, used here for TF-IDF modeling.
 
+
 4.HOW IT WORKS
 
-1.Text Preprocessing:
+1. Text Preprocessing:
 
 Tokenizes text into sentences and words.
 Removes stop words and punctuation.
 Stems words to their root forms.
 
-2.TF-IDF Modeling:
+2. TF-IDF Modeling:
 
 Converts preprocessed text into TF-IDF vectors.
 Scores sentences based on their TF-IDF values.
 
-3.Summarization:
+3. Summarization:
 
 Ranks sentences by their scores.
 Selects and concatenates the top-ranked sentences to create a summary.
